@@ -1,0 +1,168 @@
+{
+  "uid" : "d2c41cd82107fe5e",
+  "name" : "pass your own callback function to should()",
+  "fullName" : "pass your own callback function to should()",
+  "historyId" : "68871629c1be0b2efbcbbca6adc6cb7a",
+  "time" : {
+    "start" : 1635081498501,
+    "stop" : 1635081498952,
+    "duration" : 451
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1635081498502,
+        "stop" : 1635081498877,
+        "duration" : 375
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://example.cypress.io/commands/assertions",
+        "time" : {
+          "start" : 1635081498520,
+          "stop" : 1635081498876,
+          "duration" : 356
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "get .assertions-p",
+      "time" : {
+        "start" : 1635081498897,
+        "stop" : 1635081498905,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "find p",
+      "time" : {
+        "start" : 1635081498905,
+        "stop" : 1635081498951,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "assert has 3 paragraphs: expected **[ Array(3) ]** to have property **length**",
+      "time" : {
+        "start" : 1635081498951,
+        "stop" : 1635081498951,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "[\n  \"Some text from first p\",\n  \"More text from second p\",\n  \"And even more text from third p\"\n]"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "assert has 3 paragraphs: expected **[ Array(3) ]** to have a length of **3**",
+      "time" : {
+        "start" : 1635081498951,
+        "stop" : 1635081498951,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "3"
+      }, {
+        "name" : "expected",
+        "value" : "3"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "assert has expected text in each paragraph: expected **[ Array(3) ]** to deeply equal **[ Array(3) ]**",
+      "time" : {
+        "start" : 1635081498951,
+        "stop" : 1635081498951,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "[\n  \"Some text from first p\",\n  \"More text from second p\",\n  \"And even more text from third p\"\n]"
+      }, {
+        "name" : "expected",
+        "value" : "[\n  \"Some text from first p\",\n  \"More text from second p\",\n  \"And even more text from third p\"\n]"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Assertions"
+  }, {
+    "name" : "suite",
+    "value" : "Explicit Assertions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d2c41cd82107fe5e.json",
+  "parameterValues" : [ ]
+}

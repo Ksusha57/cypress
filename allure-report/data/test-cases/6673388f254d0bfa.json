@@ -1,0 +1,60 @@
+{
+  "uid" : "6673388f254d0bfa",
+  "name" : "cy.spy() - wrap a method in a spy",
+  "fullName" : "cy.spy() - wrap a method in a spy",
+  "historyId" : "7e9de9b18cdfb02da912a54a9648e899",
+  "time" : {
+    "start" : 1635081626821,
+    "stop" : 1635081627581,
+    "duration" : 760
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit https://example.cypress.io/commands/spies-stubs-clocks",
+      "time" : {
+        "start" : 1635081626910,
+        "stop" : 1635081627579,
+        "duration" : 669
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Spies, Stubs, and Clock"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6673388f254d0bfa.json",
+  "parameterValues" : [ ]
+}

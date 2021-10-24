@@ -1,0 +1,111 @@
+{
+  "uid" : "ae3849bc15097c93",
+  "name" : "Cypress._ - call a lodash method",
+  "fullName" : "Cypress._ - call a lodash method",
+  "historyId" : "e14423057ebf0e1809f56c643f43a20a",
+  "time" : {
+    "start" : 1635081653559,
+    "stop" : 1635081654641,
+    "duration" : 1082
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1635081653562,
+        "stop" : 1635081654037,
+        "duration" : 475
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://example.cypress.io/utilities",
+        "time" : {
+          "start" : 1635081653592,
+          "stop" : 1635081654034,
+          "duration" : 442
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "GET 200 https://jsonplaceholder.cypress.io/users",
+      "time" : {
+        "start" : 1635081654039,
+        "stop" : 1635081654625,
+        "duration" : 586
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **[ 1, 2, 3 ]** to deeply equal **[ 1, 2, 3 ]**",
+      "time" : {
+        "start" : 1635081654639,
+        "stop" : 1635081654639,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "[\n  1,\n  2,\n  3\n]"
+      }, {
+        "name" : "expected",
+        "value" : "[\n  1,\n  2,\n  3\n]"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Utilities"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae3849bc15097c93.json",
+  "parameterValues" : [ ]
+}

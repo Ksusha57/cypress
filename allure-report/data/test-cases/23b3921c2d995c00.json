@@ -1,0 +1,99 @@
+{
+  "uid" : "23b3921c2d995c00",
+  "name" : "cy.screenshot() - take a screenshot",
+  "fullName" : "cy.screenshot() - take a screenshot",
+  "historyId" : "68a2c12ec3c90b7c6b5930c151ff91b1",
+  "time" : {
+    "start" : 1635081567726,
+    "stop" : 1635081569818,
+    "duration" : 2092
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1635081567726,
+        "stop" : 1635081567949,
+        "duration" : 223
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://example.cypress.io/commands/misc",
+        "time" : {
+          "start" : 1635081567753,
+          "stop" : 1635081567948,
+          "duration" : 195
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "screenshot my-image",
+      "time" : {
+        "start" : 1635081567963,
+        "stop" : 1635081569817,
+        "duration" : 1854
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "981a294f1c4478",
+      "name" : "my-image",
+      "source" : "981a294f1c4478.png",
+      "type" : "image/png",
+      "size" : 170091
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Misc"
+  }, {
+    "name" : "suite",
+    "value" : "Cypress.Screenshot"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "23b3921c2d995c00.json",
+  "parameterValues" : [ ]
+}

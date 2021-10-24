@@ -1,0 +1,105 @@
+{
+  "uid" : "15b8ccfed2362e0f",
+  "name" : "should open specific url",
+  "fullName" : "should open specific url",
+  "historyId" : "eb1a370b6b67bba4feb0d1c1dbaa18ac",
+  "time" : {
+    "start" : 1635081605521,
+    "stop" : 1635081608020,
+    "duration" : 2499
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit http://google.com -> 301: http://www.google.com/ -> 302: https://www.google.com/?gws_rd=ssl",
+      "time" : {
+        "start" : 1635081605549,
+        "stop" : 1635081608018,
+        "duration" : 2469
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /complete/search?q&cp=0&client=gws-wiz&xssi=t&hl=uk&authuser=0&psi=hl11YdCSCOy5qtsP1p66qAE.1635081607447&nolsbt=1&dpr=1",
+      "time" : {
+        "start" : 1635081608017,
+        "stop" : 1635081608017,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 204 /client_204?cs=1",
+      "time" : {
+        "start" : 1635081608017,
+        "stop" : 1635081608017,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://play.google.com/log?format=json&hasfast=true&authuser=0",
+      "time" : {
+        "start" : 1635081608018,
+        "stop" : 1635081608018,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "first test in cypress"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "15b8ccfed2362e0f.json",
+  "parameterValues" : [ ]
+}
