@@ -22,7 +22,7 @@ context('Traversal', () => {
   it('.eq() - get a DOM element at a specific index', () => {
     // https://on.cypress.io/eq
     cy.get('.traversal-list>li')
-      .eq(1).should('contain', 'siamese')
+      .eq(1).should('contain', 'siamesesss')
   })
 
   it('.filter() - get DOM elements that match the selector', () => {

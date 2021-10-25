@@ -11,7 +11,7 @@ context('Querying', () => {
   it('cy.get() - query DOM elements', () => {
     // https://on.cypress.io/get
 
-    cy.get('#query-btn').should('contain', 'Button')
+    cy.get('#query-btn').should('contain', 'Buttons')
 
     cy.get('.query-btn').should('contain', 'Button')
 
